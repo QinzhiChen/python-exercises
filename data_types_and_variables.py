@@ -1,7 +1,6 @@
 from contextlib import nullcontext
 from xmlrpc.client import boolean
 
-
 print("Movies Rental")
 # rent little mermaid for 3 days, Brother Bear for 5 days, hercules for 1 day
 # how much have to pay, cost 3 dollar per day
