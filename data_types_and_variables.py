@@ -45,19 +45,18 @@ def item():
 
 username= 'codeup'
 password = 'notastrongpassword'
-def newp():
-    if len(password)>5:
-        return True
-    elif len(username)<20:
-        return True
-    elif password!= username:
-        return True
-    elif password(" this".strip()):
-        return False
-    elif username(" this".strip()):
-        return False
-    else:
-        return False
+if len(password)>5:
+    return True
+elif len(username)<20:
+    return True
+elif password!= username:
+    return True
+elif password(" this".strip()):
+    return False
+elif username(" this".strip()):
+    return False
+else:
+    return False
 
 # In[ ]:
 
