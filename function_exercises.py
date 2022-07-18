@@ -320,21 +320,24 @@ normalize_name('%Mdakl; jQwk am ')
 # In[39]:
 
 
-from itertools import accumulate
 
 
-# In[47]:
+
+# In[37]:
 
 
 def cumulative_sum(num):
     nn=[]
-    return sum(num[:n] for n in num)
+    for n in num:
+        result=sum(num[:n])
+        nn.append(result)
+    return nn
 
 
-# In[48]:
+# In[38]:
 
 
-cumulative_sum(1,2,3)
+cumulative_sum([1,2,3,4])
 
 
 # In[ ]:
